@@ -1,8 +1,9 @@
 import { ajax } from 'discourse/lib/ajax';
 import Group from 'discourse/models/group';
 import { default as PrettyText, buildOptions } from 'pretty-text/pretty-text';
+import EmberObject from '@ember/object';
 
-const MembershipsLevel = Discourse.Model.extend(Ember.Copyable, {
+const MembershipsLevel = EmberObject.extend(Ember.Copyable, {
 
   init: function() {
     this._super();
