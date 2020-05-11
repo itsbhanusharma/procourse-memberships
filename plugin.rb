@@ -13,10 +13,10 @@ add_admin_route 'memberships.title', 'memberships'
 
 register_asset "stylesheets/procourse-memberships.scss"
 
-gem 'braintree', '2.50.0'
+gem 'braintree', '2.101.0'
 gem 'braintreehttp', '0.5.0'
 gem 'paypal-sdk-rest', '2.0.0.rc2'
-gem 'stripe', '3.28.0'
+gem 'stripe', '5.21.0'
 
 load File.expand_path('../lib/procourse_memberships/engine.rb', __FILE__)
 
